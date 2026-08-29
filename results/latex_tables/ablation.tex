@@ -1,0 +1,11 @@
+\begin{tabularx}{\textwidth}{llX}
+\toprule
+Audit & Channels kept & Failure mode \\
+\midrule
+Full E/R/S/T & E,R,S,T & complete stage-cost audit within model \\
+Remove E & R,S,T & can miss representation/materialization growth \\
+Remove R & E,S,T & can misclassify a one-state image with hard nonemptiness \\
+Remove S & E,R,T & can miss expensive equivalence/certificate discovery \\
+Remove T & E,R,S & can miss conversion/update/composition blow-up \\
+\bottomrule
+\end{tabularx}

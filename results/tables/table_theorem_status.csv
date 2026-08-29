@@ -1,0 +1,10 @@
+result,statement,status
+Canonical bridge,Future-observation image is isomorphic to future-equivalence quotient,proved
+Minimal exact interface,Every exact future-sufficient interface refines the canonical image,proved
+Same-image separation,One-state image nonemptiness is in P for 2-CNF and NP-complete for 3-CNF,proved from classical SAT results
+Audit completeness,No proper subset of E/R/S/T bounds the full stage-cost identity without a domination assumption,proved in audit model
+Representation invariance,Polynomially intertranslatable semantic representations preserve polynomiality of the normalized profile,proved under stated emulation assumptions
+Akhtar semantic convergence,Polynomial E/R/S/T and call counts over polynomial stages imply polynomial total computation,proved
+Hardness localization,"If P != NP, an exact polynomial-stage pipeline for an NP-hard language must lose polynomial control somewhere",conditional corollary
+Boundary sufficiency,Polynomial exact boundary encoding/refinement over polynomial stages implies tractability,conditional theorem
+No P=NP claim,No theorem supplies a universal polynomial resolver for arbitrary 3-SAT,scope constraint

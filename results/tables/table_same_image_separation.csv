@@ -1,0 +1,11 @@
+n_vars,problem,codomain_states,image_nonempty,algorithm,checks_or_edges,runtime_ms,complexity
+8,2-CNF,1,0,SCC implication graph,18,0.4850079999414447,P
+8,3-CNF,1,0,exhaustive diagnostic,256,0.12903300012112595,NP-complete (image nonemptiness)
+10,2-CNF,1,0,SCC implication graph,22,0.05793699983769329,P
+10,3-CNF,1,0,exhaustive diagnostic,1024,0.653943000088475,NP-complete (image nonemptiness)
+12,2-CNF,1,0,SCC implication graph,26,0.06775200017727911,P
+12,3-CNF,1,0,exhaustive diagnostic,4096,2.1020880003561615,NP-complete (image nonemptiness)
+14,2-CNF,1,0,SCC implication graph,30,0.06857400012449943,P
+14,3-CNF,1,0,exhaustive diagnostic,16384,8.2428720002099,NP-complete (image nonemptiness)
+16,2-CNF,1,0,SCC implication graph,34,0.09394100015924778,P
+16,3-CNF,1,0,exhaustive diagnostic,65536,34.160058999987086,NP-complete (image nonemptiness)
