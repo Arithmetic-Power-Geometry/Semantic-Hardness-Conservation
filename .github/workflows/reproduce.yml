@@ -1,0 +1,24 @@
+name: test-and-reproduce
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - run: pip install -e .
+      - run: pytest -q
+      - run: python run_all.py
+      - run: python export_latex_tables.py
+      - run: semantic-hardness bound --e 10 --q 5 --r 20 --p 4 --s 15 --u 30 --stages 10
+      - run: python -c "import app"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: semantic-hardness-results
+          path: results/
