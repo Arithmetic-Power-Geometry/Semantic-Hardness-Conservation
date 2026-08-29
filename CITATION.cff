@@ -1,17 +1,40 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the companion manuscript and the two foundation works."
+
 title: "Semantic Hardness Conservation Reproducibility Package"
 version: 2.0.0
 date-released: 2026-08-29
+
 authors:
-  - family-names: Akhtar
-    given-names: Mohammad Amir Khusru
+  - family-names: "Akhtar"
+    given-names: "Mohammad Amir Khusru"
+
 license: Apache-2.0
+
+repository-code: "https://github.com/Arithmetic-Power-Geometry/Semantic-Hardness-Conservation"
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Akhtar"
+      given-names: "Mohammad Amir Khusru"
+  title: "Semantic Hardness Conservation: An Operational Normal Form for Exact Reasoning After Compression"
+  year: 2026
+  doi: "10.5281/zenodo.22164419"
+
 references:
   - type: article
+    authors:
+      - family-names: "Akhtar"
+        given-names: "Mohammad Amir Khusru"
     title: "Beyond Complete Compilation: Task-Semantic Images and the Complexity of Computing Only What a Query Can See"
-    doi: 10.5281/zenodo.22160359
+    year: 2026
+    doi: "10.5281/zenodo.22160359"
+
   - type: article
+    authors:
+      - family-names: "Akhtar"
+        given-names: "Mohammad Amir Khusru"
     title: "When Can a Computation Forget? Semantic Lifetime Width and Query-Relative State Retirement"
-    doi: 10.5281/zenodo.22162568
-repository-code: "https://github.com/Arithmetic-Power-Geometry/Semantic-Hardness-Conservation"
+    year: 2026
+    doi: "10.5281/zenodo.22162568"
